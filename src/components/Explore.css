@@ -1,0 +1,93 @@
+/* General Styles */
+.explore-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .hero-section {
+    background-color: #3b4cb5;
+    color: #111;
+    padding: 15px 0;
+    
+  }
+  
+  .hero-top-banner {
+    font-size: 18px;
+    color: #111;
+  }
+  
+  .hero-top-banner .highlight {
+    font-weight: bold;
+    color: #ffa726;
+  }
+  
+  .services-section .service-card {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .services-section .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .services-section .icon-container {
+    position: relative;
+    width: 100px;
+    margin: 0 auto 15px;
+  }
+  
+  .services-section .new-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffa726;
+    color: white;
+    border-radius: 10px;
+    padding: 2px 8px;
+    font-size: 12px;
+  }
+  
+  .why-use-section .info-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .why-use-section .info-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .business-assist-section h2 {
+    margin-bottom: 15px;
+  }
+  
+  .business-assist-section button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .hero-top-banner {
+      font-size: 14px;
+    }
+  
+    .services-section .service-card,
+    .why-use-section .info-card {
+      padding: 15px;
+    }
+  
+    .business-assist-section button {
+      width: 100%;
+    }
+  }
+  

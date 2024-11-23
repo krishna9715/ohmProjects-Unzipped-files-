@@ -1,0 +1,90 @@
+
+
+
+
+
+
+.register-container {
+    transition: background-color 0.3s;
+  }
+  
+  .register-container:hover {
+    background-color: #f9f9f9; /* Change to your desired hover color */
+  }
+  
+.register-container {
+    text-align: center;
+    padding: 20px;
+}
+  
+h2 {
+    font-family: 'Afacad Flux', sans-serif;
+    margin-bottom: 20px;
+}
+  
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+  
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Afacad Flux', sans-serif;
+}
+  
+.continue-btn {
+    background-color: #3b4cb5;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Afacad Flux', sans-serif;
+    transition: background-color 0.3s;
+}
+  
+.continue-btn:hover {
+    background-color: #e67e22;
+}
+  
+.register-footer {
+    margin-top: 20px;
+}
+  
+.google-btn {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+  
+.google-btn:hover {
+    background-color: #f1f1f1;
+    color: #333;
+}
+  
+a {
+    color: #3b4cb5;
+}
+  
+a:hover {
+    text-decoration: underline;
+}

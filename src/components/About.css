@@ -1,0 +1,66 @@
+.about-wrapper {
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Fade-in animation */
+  .fade-in {
+    animation: fadeIn 1.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Fade-in from bottom */
+  .fade-in-up {
+    animation: fadeInUp 1s ease-in-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Section styling */
+  .about-intro, .about-details, .about-team {
+    margin-bottom: 30px;
+  }
+  
+  .about-intro h1, .about-details h2, .about-team h2 {
+    margin-bottom: 10px;
+  }
+  
+  .team-member {
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .about-wrapper {
+      padding: 15px;
+    }
+  
+    .team-member {
+      font-size: 14px;
+    }
+  }
+  

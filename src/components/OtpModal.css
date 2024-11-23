@@ -1,0 +1,73 @@
+/* Modal background and container */
+.otp-modal {
+  background-color: #ffffff; /* Background color of modal */
+  border-radius: 8px; /* Rounded corners for the modal */
+  font-family: 'Afacad Flux', sans-serif; /* Apply custom font */
+}
+
+.otp-message {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-family: 'Afacad Flux', sans-serif; /* Apply custom font */
+}
+
+/* OTP input container and styling */
+.otp-input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.otp-box {
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  text-align: center;
+  margin: 0 5px;
+  border: 2px solid #3b4cb5;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  color: #000;
+  outline: none;
+  font-family: 'Afacad Flux', sans-serif; /* Apply custom font */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.otp-box:focus {
+  border-color: #0056b3; /* Change border color on focus */
+}
+
+/* Button styling with custom font */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center buttons */
+}
+
+.submit-btn {
+  width: 80%;
+  background-color: #3b4cb5;
+  color: white;
+  margin-bottom: 10px; /* Space between buttons */
+  border-radius: 4px; /* Rounded corners */
+  font-family: 'Afacad Flux', sans-serif; /* Apply custom font */
+}
+
+.cancel-btn {
+  width: 80%;
+  background-color: #ae5a10;
+  color: white;
+  border-radius: 4px; /* Rounded corners */
+  font-family: 'Afacad Flux', sans-serif; /* Apply custom font */
+}
+
+/* Resend link styling with custom font */
+.resend-link {
+  text-align: center;
+  cursor: pointer;
+  color: #007bff; /* Link color */
+  margin-top: 10px;
+  text-decoration: underline; /* Underline for link effect */
+  font-family: 'Afacad Flux', sans-serif; /* Apply custom font */
+}

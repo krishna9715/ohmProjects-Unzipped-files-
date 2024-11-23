@@ -1,0 +1,152 @@
+/* Fade-in animation */
+.fade-in {
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Fade-in from bottom */
+.fade-in-up {
+  animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Button hover animation */
+.button-hover {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.button-hover:hover {
+  transform: scale(1.05);
+  background-color: #feddd6;
+  color: white;
+}
+
+/* Pulse badge animation */
+.pulse-badge {
+  animation: pulse 1.5s infinite;
+}
+.btn-One{
+  background-color: #3b4cb5;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* General style enhancements */  
+.intro-section {
+  background-color: #3b4cb5;
+}
+
+.property-search {
+  background-color: #fff;
+}
+
+/* Responsive design */
+.search-buttons {
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .search-buttons {
+    flex-direction: column;
+  }
+  .form-check-label {
+    font-size: 14px;
+  }
+}
+
+.feature-badges span {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.searching-wrapper {
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+
+/* modal-overlay: background overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* modal-content: the actual modal content box */
+.modal-content {
+  background-color:antiquewhite;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  height: 100%;
+  text-align: center;
+  overflow-y: unset;
+}
+
+/* modal-gallery: the grid of city images */
+.modal-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1.5rem));
+  gap: 20px;
+}
+
+/* city-item: individual city image */
+.city-item {
+  cursor: pointer;
+  text-align: center;
+}
+
+.city-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.city-item:hover img {
+  transform: scale(1.4);
+}
+
+.city-item p {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+
+}

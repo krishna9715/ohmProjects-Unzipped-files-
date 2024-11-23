@@ -1,0 +1,79 @@
+.list-property-modal .modal-header {
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list-property-modal .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .list-property-modal .close-btn {
+    background: transparent;
+    border: none;
+    color: #888;
+  }
+  
+  .list-property-modal .form-description {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .list-property-modal .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .list-property-modal .form-group label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .list-property-modal .form-control {
+    font-size: 1rem;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .list-property-modal .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+  }
+  
+  .list-property-modal .col-6 {
+    padding-right: 15px;
+  }
+  
+  .list-property-modal button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .list-property-modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .list-property-modal .form-control-file {
+    margin-top: 10px;
+  }
+  
+  .list-property-modal select.form-control {
+    font-size: 1rem;
+  }
+  
+  button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
